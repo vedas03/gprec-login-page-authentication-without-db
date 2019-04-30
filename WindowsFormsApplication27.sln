@@ -5,6 +5,11 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication27", "WindowsFormsApplication27\WindowsFormsApplication27.csproj", "{1C6ECAF0-BC9B-4E6D-BDBB-F98ADDA3C4C8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{303D2CA8-D964-4A4A-8478-38858ECBA613}"
+	ProjectSection(SolutionItems) = preProject
+		chromedriver.exe = chromedriver.exe
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

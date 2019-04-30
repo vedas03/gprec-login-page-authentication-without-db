@@ -27,7 +27,7 @@ namespace WindowsFormsApplication27
           //  driverService.HideCommandPromptWindow = true;
             var options = new ChromeOptions();
             //  options.AddArgument("--headless");
-            var driver = new ChromeDriver(@"C:\Users\srinivasa rao\Documents\imagerendering\ImageRender\packages\Selenium.WebDriver.ChromeDriver.2.37.0\driver\win32", options);
+            var driver = new ChromeDriver(@"C:\Users\veda\Documents\GitHub\gprec-login-page-authentication-without-db", options);
             IJavaScriptExecutor js = driver as IJavaScriptExecutor;
             IWebElement element;
             //////options.AddArgument("headless");
