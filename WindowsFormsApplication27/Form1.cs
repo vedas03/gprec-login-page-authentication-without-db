@@ -30,7 +30,7 @@ namespace WindowsFormsApplication27
             var driver = new ChromeDriver(@"C:\Users\srinivasa rao\Documents\imagerendering\ImageRender\packages\Selenium.WebDriver.ChromeDriver.2.37.0\driver\win32", options);
             IJavaScriptExecutor js = driver as IJavaScriptExecutor;
             IWebElement element;
-            ////options.AddArgument("headless");
+            //////options.AddArgument("headless");
             options.AddArgument("window-size=1200x600");
             options.AddArgument("--disbale-gpw");
             //options.AddArgument("--headless");
